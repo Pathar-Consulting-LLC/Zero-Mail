@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: admin4Him!
       POSTGRES_DB: zerodotemail
       PGDATA: /var/lib/postgresql/data/pgdata
     ports:
